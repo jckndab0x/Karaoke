@@ -1,0 +1,10 @@
+Create Table Books (id INTEGER primary key, name text, rating INTEGER);
+
+Insert into Books Values (1, "Breaking Gas", 7);
+Insert into Books Values (2, "Solid Sickle", 8);
+Insert into Books Values (3, " Anne Rice", 10);
+SELECT * FROM Books;
+SELECT * FROM Books;
+SELECT * FROM Books;
+SELECT * FROM Books;
+SELECT * FROM Books;
