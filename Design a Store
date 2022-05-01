@@ -1,0 +1,19 @@
+create table Exeter (id integer primary key, Name text, Size Integer, Color Text, Brand text, Price Integer);
+Insert into Exeter Values(1,"Shirt", 5, "Purple", "Classic",13.95);
+Insert into Exeter Values(2,"Pants", 10,"Yellow", "Bulldog",24.95);
+Insert into Exeter Values(3,"Underwear", 7,"Blue", "Bulldog",19.99);
+Insert into Exeter Values(4,"Socks", 10,"White", "Old Yella",17.99);
+Insert into Exeter Values(5,"Shoes", 12,"Black", "Slipper", 12.95);
+Insert into Exeter Values(6,"Suspenders", 4,"Blue", "Stretchy",7.99);
+Insert into Exeter Values(7,"Pants", 10,"Yellow", "Bulldog",10.99);
+Insert into Exeter Values(8,"Pajamas", 9,"Red", "Mastif",8.99);
+Insert into Exeter Values(9,"Tshirt", 14,"White", "Bulldog", 6.99);
+Insert into Exeter Values(10,"Pants", 10,"Yellow", "Bulldog", 25.99);
+Insert into Exeter Values(11,"pumps", 11,"Turquoise", "Bulldog",24.95);
+Insert into Exeter Values(12,"Sweatpants", 15,"Tan", "Sunny",17.99);
+Insert into Exeter Values(13,"Wristband", 4,"Black", "Sun Jacket", 12.99);
+Insert into Exeter Values(14,"Long Sleeved Shirt", 12,"Black", "Disorio", 12.99);
+Insert into Exeter Values(15,"Scarf", 6,"Red", "Tread",24.95);
+Select * from Exeter
+order by price;
+select sum (price) from exeter;
